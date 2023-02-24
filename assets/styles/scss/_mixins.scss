@@ -1,0 +1,8 @@
+@function vw($value, $base: 1500) {
+	@return $value / $base * 100vw;
+}
+
+@mixin mobile {
+	@media(max-width: 576px) {
+		@content;
+	}
