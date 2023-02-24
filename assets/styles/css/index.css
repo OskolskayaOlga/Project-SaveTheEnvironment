@@ -1,4 +1,19 @@
 @import "./vendor/normalize.css";
+@font-face {
+  src: url(/assets/fonts/Roboto-Regular.woff);
+  font-family: "Roboto";
+  font-style: normal;
+}
+@font-face {
+  src: url(/assets/fonts/Roboto-Medium.woff);
+  font-family: "Roboto";
+  font-style: normal;
+}
+@font-face {
+  src: url(/assets/fonts/Roboto-Bold.woff);
+  font-family: "Roboto";
+  font-style: bold;
+}
 html {
   box-sizing: border-box;
 }
