@@ -1,3 +1,119 @@
+@import "./vendor/normalize.css";
+@font-face {
+  src: url(/assets/fonts/Roboto-Regular.woff);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  src: url(/assets/fonts/Roboto-Medium.woff);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  src: url(/assets/fonts/Roboto-Bold.woff);
+  font-family: "Roboto";
+  font-style: bold;
+  font-weight: 700;
+}
+html {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.contacts {
+  display: flex;
+  background-color: #EBF0F9;
+}
+.contacts .contacts-description {
+  margin-left: 206px;
+  margin-right: 96px;
+}
+.contacts .contacts-description .contacts-description__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D2130;
+}
+.contacts .contacts-description .contacts-description__title2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  color: #1D2130;
+}
+.contacts .contacts-description .contacts-description__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.7;
+}
+.contacts .contacts-adress {
+  margin-right: 430px;
+}
+.contacts .contacts-adress .contacts-adress__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  color: #1D2130;
+}
+.contacts .contacts-adress .contacts-adress-description {
+  display: flex;
+}
+.contacts .contacts-adress .contacts-adress-description .contacts-adress__tel {
+  margin-right: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1D2130;
+}
+.contacts .contacts-adress .contacts-adress-description .contacts-adress__mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1D2130;
+}
+.contacts .contacts-adress .contacts-adress__title1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  color: #1D2130;
+}
+.contacts .contacts-adress .contacts-adress__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+}
 
 /*# sourceMappingURL=index.css.map */
