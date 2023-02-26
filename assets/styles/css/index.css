@@ -1,5 +1,4 @@
 @import "./vendor/normalize.css";
-@import "./components/aboutus.css";
 @font-face {
   src: url(/assets/fonts/Roboto-Regular.woff);
   font-family: "Roboto";
