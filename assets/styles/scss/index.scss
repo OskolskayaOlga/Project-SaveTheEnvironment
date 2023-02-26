@@ -1,5 +1,6 @@
-@import 'fonts';
-@import 'mixins';
-@import 'settings';
-@import 'vars';
-@import 'vendor';
+@import './_fonts';
+@import './_mixins';
+@import './_settings';
+@import './_vars';
+@import './_vendor';
+@import "./components/contact"
