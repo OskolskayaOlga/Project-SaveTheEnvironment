@@ -1,0 +1,166 @@
+$primary-color: #1D2130;
+$secondary-color: #EFF7F2;
+$tertiary-color: #FFFFFF;
+
+$font-size-h1: 56px;
+$font-size-h2: 48px;
+$font-size-h3: 48px;
+$font-size-h4: 24px;
+$font-size-h5: 16px;
+$font-size-h6: 28px;
+$font-size-h7: 14px;
+
+$button-padding: 15px 32px;
+$button-radius: 5px;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    .weareworking {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    }
+    
+    .weareworking__line {
+    align-items: start;
+    padding-top: 16px;
+    }
+    
+    .weareworking__text {
+    padding-left: 10px;
+    padding-right: 300px;
+    width: 450px;
+    }
+    
+    h5 {
+    align-items: start;
+    font-size: $font-size-h5;
+    }
+    
+    h1 {
+    font-size: $font-size-h1;
+    }
+    
+    .weareworking__text--lorem {
+    font-size: $font-size-h5;
+    }
+    
+    .whatwedo {
+    background-color: $primary-color;
+    margin-top: 50px;
+    }
+    
+    h2 {
+    font-size: $font-size-h2;
+    padding-left: 40px;
+    padding-top: 70px;
+    }
+    
+    .whatwedo__block {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .whatwedo__block--alltext {
+    display: flex;
+    flex-direction: row;
+    }
+    
+    h4 {
+    font-size: $font-size-h4;
+    }
+    
+    h7 {
+    font-size: $font-size-h7;
+    }
+    
+    .whatwedo__block--alltext--item {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 90px;
+    margin-bottom: 50px;
+    }
+    
+    .whatwedo__block--alltext--item--image {
+    padding-top: 40px;
+    }
+    
+    .whatwedo__block--alltext--item--text {
+    padding-left: 20px;
+    }
+    
+    .weare {
+    padding-top: 50px;
+    margin-bottom: 70px;
+    }
+    
+    .weare__text {
+    font-size: $font-size-h5;
+    text-align: center;
+    }
+    
+    h3 {
+    font-size: $font-size-h3;
+    text-align: center;
+    }
+    
+    .weare__images {
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .weare__images--mission {
+    background-image: url(../images/wood.png);
+    color: $tertiary-color;
+    margin-left: 40px;
+    margin-right: 25px;
+    font-weight: bolder;
+    opacity: 0.9;
+    }
+    
+    .weare__images--weekly {
+    background-image: url(../images/weekly.png);
+    color: $tertiary-color;
+    margin-left: 40px;
+    margin-right: 25px;
+    opacity: 0.9;
+    font-weight: bolder;
+    }
+    
+    .weare__images-wildlife {
+    background-image: url(../images/wildlife.png);
+    color: $tertiary-color;
+    margin-left: 40px;
+    margin-right: 25px;
+    opacity: 0.9;
+    font-weight: bolder;
+    }
+    
+    h6 {
+    font-size: $font-size-h6;
+    padding-left: 30px;
+    padding-right: 60px;
+    }
+    
+    button{
+        background-color: $tertiary-color;
+        border: none;
+        color:$primary-color;
+        padding: $button-padding;
+        text-align: center;
+        border-radius: $button-radius;
+        margin-left: 30px;
+        margin-bottom: 26px;
+    }
+    .weare__images--lorem{
+        font-size: 16px;
+        margin-left: 30px;
+        margin-bottom: 99px;
+        padding-right: 60px;
+    }
