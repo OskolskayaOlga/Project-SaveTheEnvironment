@@ -65,7 +65,7 @@ h1 {
     flex-direction: column;
   }
   .weareworking__line {
-    padding-top: 0;
+    display: none;
   }
   .weareworking__text {
     padding-left: 0;
@@ -90,7 +90,7 @@ h1 {
     flex-direction: column;
   }
   .weareworking__line {
-    padding-top: 0;
+    display: none;
   }
   .weareworking__text {
     padding-left: 0;
@@ -253,33 +253,42 @@ h3 {
 .weare__images--mission {
   background-image: url(/assets/images/wood.png);
   color: #FFFFFF;
-  background-size: 100% auto;
+  background-size: 100% 400px;
+  border-radius: 10px;
   margin-left: 40px;
   margin-right: 25px;
   font-weight: bolder;
   background-repeat: no-repeat;
   opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 
 .weare__images--weekly {
   background-image: url(/assets/images/weekly.png);
   color: #FFFFFF;
-  background-size: 100% auto;
+  background-size: 100% 400px;
+  border-radius: 10px;
   margin-left: 40px;
   margin-right: 25px;
   opacity: 0.9;
   font-weight: bolder;
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 
 .weare__images-wildlife {
   background-image: url(/assets/images/wildlife.png);
   color: #FFFFFF;
-  background-size: 100% auto;
+  background-size: 100% 400px;
+  border-radius: 10px;
   margin-left: 40px;
   margin-right: 25px;
   opacity: 0.9;
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 
 h6 {
