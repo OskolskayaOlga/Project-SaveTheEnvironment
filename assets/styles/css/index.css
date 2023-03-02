@@ -274,4 +274,35 @@ ul {
   top: 7px;
 }
 
+@media (max-width: 767px) {
+  .contacts {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacts .contacts-description {
+    flex-direction: column;
+    flex: 0 0 auto;
+  }
+  .contacts .contacts-description .contacts-description__contact {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+  }
+  .contacts .contacts-description .contacts-description__contact .contacts-description__title {
+    font-size: 0.9em;
+  }
+  .contacts .contacts-description .contacts-description__contact .contacts-description__title2 {
+    font-size: 3em;
+  }
+  .contacts .contacts-description .contacts-description__contact .contacts-description__text {
+    font-size: 0.9em;
+  }
+  .contacts .contacts-description .contacts-adress {
+    margin-top: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 100vw;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
