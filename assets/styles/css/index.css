@@ -34,14 +34,18 @@ ul {
 }
 
 .contacts {
-  display: flex;
   background-color: #EBF0F9;
 }
 .contacts .contacts-description {
-  margin-left: 206px;
-  margin-right: 96px;
+  display: flex;
 }
-.contacts .contacts-description .contacts-description__title {
+.contacts .contacts-description .contacts-description__contact {
+  margin-left: 206px;
+  margin-right: 50px;
+  padding: 70px;
+}
+.contacts .contacts-description .contacts-description__contact .contacts-description__title {
+  position: relative;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -51,7 +55,7 @@ ul {
   text-transform: uppercase;
   color: #1D2130;
 }
-.contacts .contacts-description .contacts-description__title2 {
+.contacts .contacts-description .contacts-description__contact .contacts-description__title2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -59,7 +63,7 @@ ul {
   line-height: 120%;
   color: #1D2130;
 }
-.contacts .contacts-description .contacts-description__text {
+.contacts .contacts-description .contacts-description__contact .contacts-description__text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -68,10 +72,13 @@ ul {
   color: #1D2130;
   opacity: 0.7;
 }
-.contacts .contacts-adress {
-  margin-right: 430px;
+.contacts .contacts-description .contacts-adress {
+  margin-top: 30px;
+  margin-right: 350px;
+  padding: 15px;
+  width: 30vw;
 }
-.contacts .contacts-adress .contacts-adress__title {
+.contacts .contacts-description .contacts-adress .contacts-adress__title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -79,27 +86,29 @@ ul {
   line-height: 160%;
   color: #1D2130;
 }
-.contacts .contacts-adress .contacts-adress-description {
+.contacts .contacts-description .contacts-adress .contacts-adress-description {
   display: flex;
 }
-.contacts .contacts-adress .contacts-adress-description .contacts-adress__tel {
+.contacts .contacts-description .contacts-adress .contacts-adress-description .contacts-adress__tel {
   margin-right: 25px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 28px;
-  color: #1D2130;
+  text-decoration: none;
+  color: #525560;
 }
-.contacts .contacts-adress .contacts-adress-description .contacts-adress__mail {
+.contacts .contacts-description .contacts-adress .contacts-adress-description .contacts-adress__mail {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 28px;
-  color: #1D2130;
+  text-decoration: none;
+  color: #525560;
 }
-.contacts .contacts-adress .contacts-adress__title1 {
+.contacts .contacts-description .contacts-adress .contacts-adress__title1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -107,13 +116,162 @@ ul {
   line-height: 160%;
   color: #1D2130;
 }
-.contacts .contacts-adress .contacts-adress__text {
+.contacts .contacts-description .contacts-adress .contacts-adress__text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: #525560;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress__title2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  color: #1D2130;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress__text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+}
+
+.connection {
+  padding: 96px;
+  margin-left: 400px;
+  margin-right: 402px;
+}
+.connection .connection__form {
+  display: flex;
+}
+.connection .connection__form .connection-form__name .connection-form__firstname {
+  padding: 5px;
+  margin: 20px 105px;
+}
+.connection .connection__form .connection-form__name .connection-form__firstname .connection-firstname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection__form .connection-form__name .connection-form__firstname .connection-jone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #1D2130;
+}
+.connection .connection__form .connection-form__name .connection-form__lastname {
+  padding: 5px;
+  margin-left: 105px;
+}
+.connection .connection__form .connection-form__name .connection-form__lastname .connection-firstname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection__form .connection-form__name .connection-form__lastname .connection-doe {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #1D2130;
+}
+.connection .connection__form .connection-form__con .connection-form__email {
+  padding: 5px;
+  margin: 20px 15px;
+}
+.connection .connection__form .connection-form__con .connection-form__email .connection-emailid {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection__form .connection-form__con .connection-form__email .connection-em {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.connection .connection__form .connection-form__con .connection-form__subject {
+  padding: 5px;
+  margin-left: 15px;
+}
+.connection .connection__form .connection-form__con .connection-form__subject .connection-subject {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection__form .connection-form__con .connection-form__subject .connection-sub {
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.connection .connection-message {
+  margin-left: 105px;
+  margin-top: 60px;
+}
+.connection .connection-message .connection-form__message .connection-form__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection-message .connection-form__message .connection-form__message {
+  padding-top: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+
+.contacts-description__title::after {
+  content: "";
+  position: absolute;
+  border: 3px solid #1D2130;
+  width: 72px;
+  height: 0px;
+  top: 7px;
+  right: 610px;
 }
 
 /*# sourceMappingURL=index.css.map */
