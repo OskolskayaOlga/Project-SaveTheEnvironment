@@ -253,7 +253,7 @@ h3 {
 .weare__images--mission {
   background-image: url(/assets/images/wood.png);
   color: #FFFFFF;
-  background-size: 100% 400px;
+  background-size: 100% 100%;
   border-radius: 10px;
   margin-left: 40px;
   margin-right: 25px;
@@ -267,7 +267,7 @@ h3 {
 .weare__images--weekly {
   background-image: url(/assets/images/weekly.png);
   color: #FFFFFF;
-  background-size: 100% 400px;
+  background-size: 100% 100%;
   border-radius: 10px;
   margin-left: 40px;
   margin-right: 25px;
@@ -281,7 +281,7 @@ h3 {
 .weare__images-wildlife {
   background-image: url(/assets/images/wildlife.png);
   color: #FFFFFF;
-  background-size: 100% 400px;
+  background-size: 100% 100%;
   border-radius: 10px;
   margin-left: 40px;
   margin-right: 25px;
