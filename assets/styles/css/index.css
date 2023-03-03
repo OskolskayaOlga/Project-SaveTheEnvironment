@@ -257,7 +257,6 @@ h3 {
   border-radius: 10px;
   margin-left: 40px;
   margin-right: 25px;
-  font-weight: bolder;
   background-repeat: no-repeat;
   opacity: 0.9;
   background-color: rgba(0, 0, 0, 0.5);
@@ -272,7 +271,6 @@ h3 {
   margin-left: 40px;
   margin-right: 25px;
   opacity: 0.9;
-  font-weight: bolder;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
