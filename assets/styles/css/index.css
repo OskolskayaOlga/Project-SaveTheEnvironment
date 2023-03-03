@@ -253,7 +253,9 @@ ul {
   color: #1D2130;
   opacity: 0.6;
 }
-.connection .connection-message .connection-form__message .connection-form__message {
+.connection .connection-message .connection-form__message .connection-form__mes {
+  width: 570px;
+  height: 200px;
   padding-top: 5px;
   font-family: "Roboto";
   font-style: normal;
@@ -302,6 +304,44 @@ ul {
     margin-right: auto;
     padding: 5px;
     width: 100vw;
+  }
+  .connection {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .connection .connection__form {
+    flex-direction: column;
+  }
+  .connection .connection__form .connection-form__name .connection-form__firstname {
+    margin: 10px 10px;
+  }
+  .connection .connection__form .connection-form__name .connection-form__lastname {
+    margin: 10px 10px;
+  }
+  .connection .connection__form .connection-form__con .connection-form__email {
+    margin: 10px 10px;
+  }
+  .connection .connection__form .connection-form__con .connection-form__subject {
+    padding: 5px;
+    margin-left: 15px;
+  }
+  .connection .connection-message {
+    margin-left: auto;
+    margin-left: auto;
+  }
+  .connection .connection-message .connection-form__message .connection-form__text {
+    margin-left: 10px;
+  }
+  .connection .connection-message .connection-form__message .connection-form__mes {
+    width: 300px;
+    margin-left: 10px;
+  }
+  .contacts-description__title::after {
+    display: none;
+  }
+  .maps {
+    display: none;
   }
 }
 

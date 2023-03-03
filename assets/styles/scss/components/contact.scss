@@ -298,7 +298,9 @@ line-height: 160%;
 color: $color-lblack;
 opacity: 0.6;
         }
-        .connection-form__message{
+        .connection-form__mes{
+            width: 570px;
+            height: 200px;
             padding-top: 5px;
             font-family: 'Roboto';
 font-style: normal;
@@ -372,5 +374,60 @@ top: 7px;
         }
         
     }
-  
+    .connection{
+        padding: 10px;
+          margin-left: auto;
+          margin-right: auto;
+       
+          .connection__form{
+       
+           flex-direction: column;
+       
+           .connection-form__name{       
+           .connection-form__firstname {
+       
+               margin: 10px 10px;
+       
+           }
+           .connection-form__lastname{
+
+            margin: 10px 10px;
+           }
+       
+          }
+          .connection-form__con{
+           .connection-form__email{
+            margin: 10px 10px;
+            
+           }
+           .connection-form__subject{
+  padding: 5px;
+ margin-left: 15px;
+     }
+          }
+       }
+       
+       .connection-message{
+           margin-left: auto;
+        margin-left: auto;
+       
+           .connection-form__message{
+               .connection-form__text{
+               margin-left: 10px;
+               }
+               .connection-form__mes{
+                width: 300px;
+                margin-left: 10px; 
+               }
+           } 
+       
+       }
+       }
+       .contacts-description__title::after{
+      display: none;
+        }
+        .maps{
+            display: none;
+        }
+    
  }
