@@ -429,5 +429,112 @@ top: 7px;
         .maps{
             display: none;
         }
+       
+ }
+ @media (min-width: 768px) and (max-width: 1023px)
+ {
+    .contacts-description__title::after{
+        display: none;
+          }
+    .contacts{
+ margin-left: auto;
+ margin-right: auto;
+       
     
+        .contacts-description{
+          flex-direction: column;
+          flex: 0 0 auto;
+          margin-left: 70px;
+    
+    .contacts-description__contact{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px;
+        .contacts-description__title {
+        font-size: 0.9em;
+    
+        }
+        .contacts-description__title2{
+
+    font-size: 3em;
+   
+        }
+        .contacts-description__text{
+
+    font-size: 0.9em;
+        }
+    
+        }
+    
+        .contacts-adress{
+            margin-top: auto;
+            margin-right: auto;
+            padding: 5px;
+    
+            width: 100vw;
+    
+        
+    }
+
+    
+        }
+
+        
+    }
+    .connection{
+        padding: 10px;
+          margin-left: auto;
+          margin-right: auto;
+       
+          .connection__form{
+       margin-left: 170px;
+       margin-top: 50px;
+          
+       
+           .connection-form__name{  
+
+           .connection-form__firstname {
+       
+               margin: 10px 10px;
+       
+           }
+           .connection-form__lastname{
+
+            margin: 10px 10px;
+           }
+       
+          }
+          .connection-form__con{
+           .connection-form__email{
+            margin: 10px 10px;
+            
+           }
+           .connection-form__subject{
+  padding: 5px;
+ margin-left: 15px;
+     }
+          }
+       }
+       
+       .connection-message{
+           margin-left: auto;
+        margin-left: auto;
+       
+           .connection-form__message{
+          
+               .connection-form__text{
+               margin-left: 190px;
+               }
+               .connection-form__mes{
+                width: 450px;
+                margin-left: 190px; 
+               }
+           } 
+       
+       }
+       }
+    .contakts-socialnetwork{
+        margin-left: 450px;
+    }
+
  }
