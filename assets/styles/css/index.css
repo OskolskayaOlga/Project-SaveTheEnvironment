@@ -413,6 +413,18 @@ ul {
   .contakts-socialnetwork {
     margin-left: 450px;
   }
+  .map-wrap {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+  }
+  .map-wrap iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    position: absolute;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
