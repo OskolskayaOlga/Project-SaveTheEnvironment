@@ -25,4 +25,789 @@ ul {
   list-style: none;
 }
 
+.weareworking {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.weareworking__line {
+  align-items: start;
+  padding-top: 22px;
+}
+
+.weareworking__text {
+  padding-left: 10px;
+  padding-right: 300px;
+  width: 450px;
+}
+
+h5 {
+  align-items: start;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+.weareworking__text--lorem {
+  font-size: 16px;
+  width: 600px;
+}
+
+@media (max-width: 767px) {
+  .weareworking {
+    flex-direction: column;
+  }
+  .weareworking__line {
+    display: none;
+  }
+  .weareworking__text {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .weareworking__text--lorem {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .weareworking {
+    flex-direction: column;
+  }
+  .weareworking__line {
+    display: none;
+  }
+  .weareworking__text {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .weareworking__text--lorem {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+.whatwedo {
+  background-color: #EFF7F2;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 48px;
+  padding-left: 40px;
+  padding-top: 70px;
+}
+
+.whatwedo__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.whatwedo__block--alltext {
+  display: flex;
+  flex-direction: row;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h7 {
+  font-size: 14px;
+}
+
+.whatwedo__block--alltext--item {
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  padding-right: 90px;
+  margin-bottom: 50px;
+}
+
+.whatwedo__block--alltext--item--image {
+  padding-top: 40px;
+}
+
+.whatwedo__block--alltext--item--text {
+  padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .whatwedo {
+    margin-top: 30px;
+  }
+  h2 {
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .whatwedo__block--alltext {
+    flex-direction: column;
+  }
+  h4 {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h7 {
+    font-size: 14px;
+  }
+  .whatwedo__block--alltext--item {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
+  .whatwedo__block--alltext--item--image {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .whatwedo__block--alltext--item--text {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .whatwedo {
+    margin-top: 30px;
+  }
+  h2 {
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .whatwedo__block--alltext {
+    flex-direction: row;
+  }
+  h4 {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h7 {
+    font-size: 14px;
+  }
+  .whatwedo__block--alltext--item {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
+  .whatwedo__block--alltext--item--image {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .whatwedo__block--alltext--item--text {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+.weare {
+  padding-top: 50px;
+  margin-bottom: 70px;
+}
+
+.weare__text {
+  font-size: 16px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+  width: 750px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.weare__images {
+  display: flex;
+  flex-direction: row;
+}
+
+.weare__images--mission {
+  background-image: url(/assets/images/wood.png);
+  color: #FFFFFF;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 25px;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.weare__images--weekly {
+  background-image: url(/assets/images/weekly.png);
+  color: #FFFFFF;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 25px;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.weare__images-wildlife {
+  background-image: url(/assets/images/wildlife.png);
+  color: #FFFFFF;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 25px;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+h6 {
+  font-size: 28px;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+
+button {
+  background-color: #FFFFFF;
+  border: none;
+  color: #1D2130;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.weare__images--lorem {
+  font-size: 16px;
+  margin-left: 30px;
+  margin-bottom: 53px;
+  padding-right: 60px;
+}
+
+@media (max-width: 767px) {
+  .weare {
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .weare__text {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  h3 {
+    font-size: 36px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .weare__images {
+    display: flex;
+    flex-direction: column;
+  }
+  .weare__images--mission,
+  .weare__images--weekly,
+  .weare__images-wildlife {
+    margin: auto;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 1;
+  }
+  h6 {
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+  .weare__images--lorem {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .weare {
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .weare__text {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  h3 {
+    font-size: 36px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .weare__images {
+    display: flex;
+    flex-direction: column;
+  }
+  .weare__images--mission,
+  .weare__images--weekly,
+  .weare__images-wildlife {
+    margin: auto;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 1;
+  }
+  h6 {
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+  .weare__images--lorem {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+=======
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.contacts {
+  background-color: #EBF0F9;
+}
+.contacts .contacts-description {
+  display: flex;
+}
+.contacts .contacts-description .contacts-description__contact {
+  margin-left: 206px;
+  margin-right: 50px;
+  padding: 70px;
+}
+.contacts .contacts-description .contacts-description__contact .contacts-description__title {
+  position: relative;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D2130;
+}
+.contacts .contacts-description .contacts-description__contact .contacts-description__title2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  color: #1D2130;
+}
+.contacts .contacts-description .contacts-description__contact .contacts-description__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.7;
+}
+.contacts .contacts-description .contacts-adress {
+  margin-top: 30px;
+  margin-right: 350px;
+  padding: 15px;
+  width: 30vw;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  color: #1D2130;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress-description {
+  display: flex;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress-description .contacts-adress__tel {
+  margin-right: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #525560;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress-description .contacts-adress__mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #525560;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress__title1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  color: #1D2130;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress__title2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  color: #1D2130;
+}
+.contacts .contacts-description .contacts-adress .contacts-adress__text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+}
+
+.connection {
+  padding: 96px;
+  margin-left: 400px;
+  margin-right: 402px;
+}
+.connection .connection__form {
+  display: flex;
+}
+.connection .connection__form .connection-form__name .connection-form__firstname {
+  padding: 5px;
+  margin: 20px 105px;
+}
+.connection .connection__form .connection-form__name .connection-form__firstname .connection-firstname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection__form .connection-form__name .connection-form__firstname .connection-jone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #1D2130;
+}
+.connection .connection__form .connection-form__name .connection-form__lastname {
+  padding: 5px;
+  margin-left: 105px;
+}
+.connection .connection__form .connection-form__name .connection-form__lastname .connection-firstname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection__form .connection-form__name .connection-form__lastname .connection-doe {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #1D2130;
+}
+.connection .connection__form .connection-form__con .connection-form__email {
+  padding: 5px;
+  margin: 20px 15px;
+}
+.connection .connection__form .connection-form__con .connection-form__email .connection-emailid {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection__form .connection-form__con .connection-form__email .connection-em {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.connection .connection__form .connection-form__con .connection-form__subject {
+  padding: 5px;
+  margin-left: 15px;
+}
+.connection .connection__form .connection-form__con .connection-form__subject .connection-subject {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection__form .connection-form__con .connection-form__subject .connection-sub {
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.connection .connection-message {
+  margin-left: 105px;
+  margin-top: 60px;
+}
+.connection .connection-message .connection-form__message .connection-form__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+.connection .connection-message .connection-form__message .connection-form__mes {
+  width: 570px;
+  height: 200px;
+  padding-top: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D2130;
+  opacity: 0.6;
+}
+
+.contacts-description__title::after {
+  content: "";
+  position: absolute;
+  border: 3px solid #1D2130;
+  width: 72px;
+  height: 0px;
+  left: -90px;
+  top: 7px;
+}
+
+@media (max-width: 767px) {
+  .contacts {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacts .contacts-description {
+    flex-direction: column;
+    flex: 0 0 auto;
+  }
+  .contacts .contacts-description .contacts-description__contact {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+  }
+  .contacts .contacts-description .contacts-description__contact .contacts-description__title {
+    font-size: 0.9em;
+  }
+  .contacts .contacts-description .contacts-description__contact .contacts-description__title2 {
+    font-size: 3em;
+  }
+  .contacts .contacts-description .contacts-description__contact .contacts-description__text {
+    font-size: 0.9em;
+  }
+  .contacts .contacts-description .contacts-adress {
+    margin-top: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 100vw;
+  }
+  .connection {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .connection .connection__form {
+    flex-direction: column;
+  }
+  .connection .connection__form .connection-form__name .connection-form__firstname {
+    margin: 10px 10px;
+  }
+  .connection .connection__form .connection-form__name .connection-form__lastname {
+    margin: 10px 10px;
+  }
+  .connection .connection__form .connection-form__con .connection-form__email {
+    margin: 10px 10px;
+  }
+  .connection .connection__form .connection-form__con .connection-form__subject {
+    padding: 5px;
+    margin-left: 15px;
+  }
+  .connection .connection-message {
+    margin-left: auto;
+    margin-left: auto;
+  }
+  .connection .connection-message .connection-form__message .connection-form__text {
+    margin-left: 10px;
+  }
+  .connection .connection-message .connection-form__message .connection-form__mes {
+    width: 300px;
+    margin-left: 10px;
+  }
+  .contacts-description__title::after {
+    display: none;
+  }
+  .maps {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contacts-description__title::after {
+    display: none;
+  }
+  .contacts {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacts .contacts-description {
+    flex-direction: column;
+    flex: 0 0 auto;
+    margin-left: 70px;
+  }
+  .contacts .contacts-description .contacts-description__contact {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+  }
+  .contacts .contacts-description .contacts-description__contact .contacts-description__title {
+    font-size: 0.9em;
+  }
+  .contacts .contacts-description .contacts-description__contact .contacts-description__title2 {
+    font-size: 3em;
+  }
+  .contacts .contacts-description .contacts-description__contact .contacts-description__text {
+    font-size: 0.9em;
+  }
+  .contacts .contacts-description .contacts-adress {
+    margin-top: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 100vw;
+  }
+  .connection {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .connection .connection__form {
+    margin-left: 170px;
+    margin-top: 50px;
+  }
+  .connection .connection__form .connection-form__name .connection-form__firstname {
+    margin: 10px 10px;
+  }
+  .connection .connection__form .connection-form__name .connection-form__lastname {
+    margin: 10px 10px;
+  }
+  .connection .connection__form .connection-form__con .connection-form__email {
+    margin: 10px 10px;
+  }
+  .connection .connection__form .connection-form__con .connection-form__subject {
+    padding: 5px;
+    margin-left: 15px;
+  }
+  .connection .connection-message {
+    margin-left: auto;
+    margin-left: auto;
+  }
+  .connection .connection-message .connection-form__message .connection-form__text {
+    margin-left: 190px;
+  }
+  .connection .connection-message .connection-form__message .connection-form__mes {
+    width: 450px;
+    margin-left: 190px;
+  }
+  .contakts-socialnetwork {
+    margin-left: 450px;
+  }
+  .map-wrap {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+  }
+  .map-wrap iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    position: absolute;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
