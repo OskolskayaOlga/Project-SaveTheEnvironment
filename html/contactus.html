@@ -14,25 +14,30 @@
     <main>
         <section class="contacts">
             <div class="contacts-description">
-                <h1 class="contacts-description__title">Contact us</h1>
-                <h2 class="contacts-description__title2">We'd love to hear from you</h2>
-                <p class="contacts-description__text">Have any question in mind or want to enquire? Please feel free to
-                    contact us through the form or the
-                    following details.</p>
-            </div>
-            <div class="contacts-adress">
-                <h3 class="contacts-adress__title">Let's talk! </h3>
-                <div class="contacts-adress-description">
-                    <a class="contacts-adress__tel" href="tel:+123456789">+1 23 456 789</a>
-                    <a class="contacts-adress__mail" href="mailto:hello@finsweet.com">hello@finsweet.com</a>
+                <div class="contacts-description__contact">
+                    <h1 class="contacts-description__title">Contact us</h1>
+                    <h2 class="contacts-description__title2">We'd love to hear from you</h2>
+                    <p class="contacts-description__text">Have any question in mind or want to enquire? Please feel free
+                        to
+                        contact us through the form or the
+                        following details.</p>
                 </div>
-                <h3 class="contacts-adress__title1">Headoffice</h3>
-                <p class="contacts-adress__text">8 Brewery Drive, Hudson, NH 03051
-                    USA</p>
-                <h3 class="contacts-adress__title2">Branch Office</h3>
-                <p class="contacts-adress__text2">178 Marconi St., Venice, 34293
-                    Italy</p>
+                <div class="contacts-adress">
+                    <h3 class="contacts-adress__title">Let's talk! </h3>
+                    <div class="contacts-adress-description">
+                        <a class="contacts-adress__tel" href="tel:+123456789">+1 23 456 789</a>
+                        <a class="contacts-adress__mail" href="mailto:hello@finsweet.com">hello@finsweet.com</a>
+                    </div>
+                    <h3 class="contacts-adress__title1">Headoffice</h3>
+                    <p class="contacts-adress__text">8 Brewery Drive, Hudson, NH 03051
+                        USA</p>
+                    <h3 class="contacts-adress__title2">Branch Office</h3>
+                    <p class="contacts-adress__text2">178 Marconi St., Venice, 34293
+                        Italy</p>
+                </div>
             </div>
+
+
             <div class="contakts-socialnetwork">
                 <img src="/assets/imgcontact/facebook.svg" alt="Facebook">
                 <img src="/assets/imgcontact/Twitter.svg" alt="Twitter">
@@ -40,39 +45,50 @@
             </div>
 
         </section>
-        <section>
-            <form>
-                <div>
-                    <label for="firstname">First Name</label><br>
-                    <input type="text" id="firstname" name="firstname" placeholder="Jone">
+        <section class="connection">
+            <form class="connection__form">
+                <div class="connection-form__name">
+
+                    <div class="connection-form__firstname">
+                        <label class="connection-firstname" for="firstname">First Name</label><br>
+                        <input class="connection-jone" type="text" id="firstname" name="firstname" placeholder="Jone">
+                    </div>
+                    <div class="connection-form__lastname">
+                        <label class="connection-firstname" for="lastname">Last Name</label><br>
+                        <input class="connection-doe" type="text" id="lastname" name="lastname" placeholder="Doe">
+                    </div>
                 </div>
-                <div>
-                    <label for="lastname">Last Name</label><br>
-                    <input type="text" id="lastname" name="lastname" placeholder="Doe">
+
+                <div class="connection-form__con">
+                    <div class="connection-form__email">
+                        <label class="connection-emailid" for="emailid">Email Id</label><br>
+                        <input class="connection-em" type="email" id="emailid" name="emailId"
+                            placeholder="johndoe@gmail.com">
+                    </div>
+                    <div class="connection-form__subject">
+                        <label class="connection-subject" for="subject">Subject</label><br>
+                        <input class="connection-sub" type="text" id="subject" name="subject">
+                    </div>
                 </div>
-                <div>
-                    <label for="emailid">Email Id</label><br>
-                    <input type="email" id="emailid" name="emailId" placeholder="johndoe@gmail.com">
-                </div>
-                <div>
-                    <label for="subject">Subject</label><br>
-                    <input type="text" id="subject" name="subject" placeholder="subject">
-                </div>
-                <div>
-                    <label for="message">Message</label><br>
-                    <textarea id="message" name="comment" cols="60" rows="10"
+
+
+            </form>
+            <form class="connection-message">
+                <div class="connection-form__message">
+                    <label class="connection-form__text" for="message">Message</label><br>
+                    <textarea class="connection-form__mes" id="message" name="comment"
                         placeholder="Введите коментари"></textarea>
 
                 </div>
             </form>
         </section>
-        <section>
+        <section class="map-wrap">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.6868728377685!2d-71.42813378490641!3d42.731517879163704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3b1f03fa91a0b%3A0x90f6162c7dc0abf!2sHudson%20Brews!5e0!3m2!1sru!2sru!4v1677421341228!5m2!1sru!2sru"
                 width="1740" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <section>dssd</section>
+
     </main>
 
 
